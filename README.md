@@ -19,8 +19,8 @@ Repositório para armazenar exercícios e práticas da disciplina de Estrutura d
   - Tipos de dados
 
 ### Práticas
-- Exercícios BeeCrowd (1000-1010)
-- Calculadora em C
+- Exercícios BeeCrowd
+- Exercicios das aulas
 
 ## Como compilar
 
