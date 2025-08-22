@@ -1,0 +1,32 @@
+# Estrutura de Dados 1
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" alt="Pikachu" width="100">
+</div>
+
+Repositório para armazenar exercícios e práticas da disciplina de Estrutura de Dados 1.
+
+## Conteúdo
+
+### Aulas
+- **Aula 1**: Introdução à linguagem C
+  - Entrada e saída de dados
+  - Operadores lógicos
+  
+- **Aula 2**: Estruturas de controle
+  - Condicionais
+  - Loops (for, while, do-while)
+  - Tipos de dados
+
+### Práticas
+- Exercícios BeeCrowd (1000-1010)
+- Calculadora em C
+
+## Como compilar
+
+```bash
+gcc arquivo.c -o executavel
+./executavel
+```
+
+##
