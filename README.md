@@ -7,6 +7,7 @@
 ## Conteúdo
 
 ### Aulas
+
 - **Aula 1**: Introdução à linguagem C
   - Entrada e saída de dados
   - Operadores lógicos
@@ -17,6 +18,7 @@
   - Tipos de dados
 
 ### Práticas
+
 - Exercícios BeeCrowd
 - Exercicios das aulas
 
