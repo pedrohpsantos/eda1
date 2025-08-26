@@ -11,11 +11,16 @@
 - **Aula 1**: Introdução à linguagem C
   - Entrada e saída de dados
   - Operadores lógicos
-  
 - **Aula 2**: Estruturas de controle
+
   - Condicionais
   - Loops (for, while, do-while)
   - Tipos de dados
+
+- **Aula 3**: Vetores e Matrizes
+  - Inicialização de vetores e matrizes
+  - Buscar em um vetor
+  - Ler e imprimir uma matriz 2D e 3D
 
 ### Práticas
 
