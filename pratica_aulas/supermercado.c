@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(){
+int main()
+{
 
     srand(time(NULL));
     char produtos[10] = {"Feijao", "Arroz", "Oleo", "Farinha", "Macarrão", "Biscoito", "Refrigerante", "Abacaxi", "Maça", "Banana"};
