@@ -29,6 +29,11 @@
   - Typedef
   - Malloc
 
+- **Aula 5**: Ponteiros
+  - Introdução a Ponteiros
+  - Componentes de um Ponteiro
+  - Função 'Swap'
+
 ### Práticas
 
 - Exercícios BeeCrowd
