@@ -20,19 +20,26 @@
   - Tipos de dados
 
 - **Aula 3**: Vetores e Matrizes
+
   - Inicialização de vetores e matrizes
   - Buscar em um vetor
   - Ler e imprimir uma matriz 2D e 3D
 
 - **Aula 4**: Estruturas e memoria
+
   - Struct
   - Typedef
   - Malloc
 
 - **Aula 5**: Ponteiros
+
   - Introdução a Ponteiros
   - Componentes de um Ponteiro
   - Função 'Swap'
+
+- **Aula 6**: Ponteiros com Struct
+  - Inicialização
+  - Como usar ponteiros
 
 ### Práticas
 
