@@ -41,6 +41,10 @@
   - Inicialização
   - Como usar ponteiros
 
+- **Aula 7**:
+  - Intrudução a arquivos
+  - Verificação e abertura
+
 ### Práticas
 
 - Exercícios BeeCrowd
