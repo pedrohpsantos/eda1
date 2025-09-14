@@ -38,10 +38,12 @@
   - Função 'Swap'
 
 - **Aula 6**: Ponteiros com Struct
+
   - Inicialização
   - Como usar ponteiros
 
 - **Aula 7**:
+
   - Intrudução a arquivos
   - Verificação e abertura
 
