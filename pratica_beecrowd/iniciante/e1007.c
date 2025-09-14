@@ -1,15 +1,14 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
 
-    int a, b, c, d, dif;
-    scanf("%d", &a);
-    scanf("%d", &b);
-    scanf("%d", &c);
-    scanf("%d", &d);
-    dif = (a * b - c * d);
-    printf("DIFERENCA = %d\n", dif);
+  int a, b, c, d, dif;
+  scanf("%d", &a);
+  scanf("%d", &b);
+  scanf("%d", &c);
+  scanf("%d", &d);
+  dif = (a * b - c * d);
+  printf("DIFERENCA = %d\n", dif);
 
-    return 0;
+  return 0;
 }
