@@ -11,7 +11,7 @@ int main() {
            "ou 4 (Divisão): ");
     scanf("%d", &opc);
     switch (opc) {
-    case 1:
+    case 1: {
       double soma = 0;
       for (int i = 0; i < n; i++) {
         printf("Digite o %d numero: ", i + 1);
@@ -23,8 +23,9 @@ int main() {
       }
       printf("SOMA = %.1lf\n", soma);
       break;
+    }
 
-    case 2:
+    case 2: {
       double sub = 0;
       for (int i = 0; i < n; i++) {
         printf("Digite o %d numero: ", i + 1);
@@ -36,8 +37,9 @@ int main() {
       }
       printf("SUBTRAÇÃO = %.1lf\n", sub);
       break;
+    }
 
-    case 3:
+    case 3: {
       double mul = 0;
       for (int i = 0; i < n; i++) {
         printf("Digite o %d numero: ", i + 1);
@@ -49,8 +51,9 @@ int main() {
       }
       printf("MULTIPLICAÇÃO = %.1lf\n", mul);
       break;
+    }
 
-    case 4:
+    case 4: {
       double div = 0;
       for (int i = 0; i < n; i++) {
         printf("Digite o %d numero: ", i + 1);
@@ -62,6 +65,7 @@ int main() {
       }
       printf("DIVISÃO = %.1lf\n", div);
       break;
+    }
 
     default:
       printf("Opção Invalida!");

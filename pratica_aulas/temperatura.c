@@ -8,19 +8,21 @@ int main() {
            "Sair: ");
     scanf(" %c", &opc);
     switch (opc) {
-    case 'C':
+    case 'C': {
       double f;
       printf("Digite o valor em Fahrenheit: ");
       scanf("%lf", &f);
       printf("Temperatura em Celsius: %.1lf\n", (f - 32) / 1.8);
       break;
+    }
 
-    case 'F':
+    case 'F':{
       double c;
       printf("Digite o valor em Celsius: ");
       scanf("%lf", &c);
       printf("Temperatura em Fahrenheit: %.1lf\n", (c * 1.8) + 32);
       break;
+    }
 
     case 'S':
       printf("Programa encerrado");
