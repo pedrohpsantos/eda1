@@ -9,41 +9,34 @@
 ### Aulas
 
 - **Aula 1**: Introdução à linguagem C
-
   - Entrada e saída de dados
   - Operadores lógicos
 
 - **Aula 2**: Estruturas de controle
-
   - Condicionais
   - Loops (for, while, do-while)
   - Tipos de dados
 
 - **Aula 3**: Vetores e Matrizes
-
   - Inicialização de vetores e matrizes
   - Buscar em um vetor
   - Ler e imprimir uma matriz 2D e 3D
 
 - **Aula 4**: Estruturas e memoria
-
   - Struct
   - Typedef
   - Malloc
 
 - **Aula 5**: Ponteiros
-
   - Introdução a Ponteiros
   - Componentes de um Ponteiro
   - Função 'Swap'
 
 - **Aula 6**: Ponteiros com Struct
-
   - Inicialização
   - Como usar ponteiros
 
 - **Aula 7**: Arquivos 1
-
   - Intrudução a arquivos
   - Verificação e abertura
 
@@ -63,4 +56,4 @@ gcc arquivo.c -o executavel
 ./executavel
 ```
 
-##
+---
