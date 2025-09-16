@@ -42,10 +42,14 @@
   - Inicialização
   - Como usar ponteiros
 
-- **Aula 7**:
+- **Aula 7**: Arquivos 1
 
   - Intrudução a arquivos
   - Verificação e abertura
+
+- **Aula 8**: Arquivos 2
+  - Copiar arquivos (fgetc, fputc)
+  - Contar caracteres de arquivo
 
 ### Práticas
 
