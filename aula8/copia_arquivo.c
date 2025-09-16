@@ -6,10 +6,7 @@ int main(){
     char ch;
     fOriginal = fopen("lorem.txt", "r");
     fCopia = fopen("lorem1.txt", "w");
-    while(1){
-        ch = fgetc(fOriginal);
-        if (ch == EOF)
-            break;
+    while((ch = fgetc(fOriginal)) != EOF){
         fputc(ch, fCopia);
     }
     fclose(fOriginal);
