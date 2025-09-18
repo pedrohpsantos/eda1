@@ -5,7 +5,7 @@ int main()
     double valor;
     scanf("%lf", &valor);
 
-    if (valor > 0 && valor <= 25)
+    if (valor >= 0 && valor <= 25)
     {
         printf("Intervalo [0,25]\n");
     }
