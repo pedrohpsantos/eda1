@@ -51,6 +51,10 @@
   - Copiar arquivos (fgetc, fputc)
   - Contar caracteres de arquivo
 
+- **Aula 9**: Alocação Dinamica
+  - Vetores Dinamicos
+  - Calloc
+
 ### Práticas
 
 - Exercícios BeeCrowd
