@@ -16,7 +16,7 @@ int main() {
       break;
     }
 
-    case 'F':{
+    case 'F': {
       double c;
       printf("Digite o valor em Celsius: ");
       scanf("%lf", &c);
