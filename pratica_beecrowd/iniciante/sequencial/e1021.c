@@ -30,9 +30,9 @@ int main() {
   resto %= 2;
 
   printf("MOEDAS:\n");
-  
+
   printf("%d moeda(s) de R$ 1.00\n", resto);
-  
+
   printf("%d moeda(s) de R$ 0.50\n", moedas / 50);
   resto = moedas % 50;
 
