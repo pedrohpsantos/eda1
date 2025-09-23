@@ -28,7 +28,3 @@ int main() {
   printf("Total: R$ %.2lf\n", preco);
   return 0;
 }
-
-
-
-
