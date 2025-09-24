@@ -1,17 +1,15 @@
 #include <stdio.h>
 
+int main() {
 
-int main(){
+  int a, b, temp;
+  scanf("%d %d", &a, &b);
 
-    int a, b, temp;
-    scanf("%d %d", &a, &b);
+  if (a % b == 0 || b % a == 0) {
+    printf("Sao Multiplos\n");
+  } else {
+    printf("Nao sao Multiplos\n");
+  }
 
-    if(a%b==0 || b%a==0){
-        printf("Sao Multiplos\n");
-    }
-    else {
-        printf("Nao sao Multiplos\n");
-    }
-
-    return 0;
+  return 0;
 }
