@@ -5,9 +5,7 @@
 void alocaEstoque(TEstoque *pEstoque) {
   int quantidadeParaAlocar;
   scanf("%d", &quantidadeParaAlocar);
-
   pEstoque->qtdeProdutos = quantidadeParaAlocar;
-
   pEstoque->produtos =
       (TProduto *)calloc(quantidadeParaAlocar, sizeof(TProduto));
 }
@@ -27,7 +25,6 @@ void listarProdutos(TEstoque *pEstoque) {
     int pId = pEstoque->produtos[i].id;
     int pQ = pEstoque->produtos[i].quantidade;
     float pP = pEstoque->produtos[i].preco;
-
     printf("ID: %d, Qt: %d, Preço: %.2f\n", pId, pQ, pP);
   }
 }
