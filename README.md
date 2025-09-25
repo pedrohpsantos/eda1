@@ -49,7 +49,10 @@
   - Calloc
 
 - **Aula 10**: Alocação Dinamica 2
-  - Exercícios com arquivos
+  - Exercícios com vetores dinamicos
+
+- **Aula 11**: Laboratorio 1
+  - Sistema de Gestão de Estoque
 
 ### Práticas
 
