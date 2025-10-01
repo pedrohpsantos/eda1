@@ -54,6 +54,10 @@
 - **Aula 11**: Laboratorio 1
   - Sistema de Gestão de Estoque
 
+- **Aula 12**: Recursão
+  - Fatorial e Fibonacci
+  - Iterativa x Recursiva
+
 ### Práticas
 
 - Exercícios BeeCrowd
