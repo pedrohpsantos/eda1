@@ -63,6 +63,10 @@
 - Exercícios BeeCrowd
 - Exercicios das aulas
 
+### PDFs
+- Bibliografias
+- Slides de aula
+
 ## Como compilar
 
 ```bash
