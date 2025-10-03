@@ -4,7 +4,7 @@ long int somaVet(int *a, int qtde) {
   if (qtde == 0)
     return 0;
   else
-    return a[qtde] + somaVet(a, qtde - 1);
+    return a[qtde - 1] + somaVet(a, qtde - 1);
 }
 
 int main() {
