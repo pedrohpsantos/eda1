@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 long int somaVet(int *a, int qtde) {
   if (qtde == 0)
@@ -8,10 +9,10 @@ long int somaVet(int *a, int qtde) {
 }
 
 int main() {
-  int n;
+  int n, *v;
   printf("Qual o tamanho do vetor: ");
   scanf("%d", &n);
-  int v[n];
+  v = (int *)calloc(n, sizeof(int));
   for (int i = 0; i < n; i++) {
     printf("Numero na posição %d do vetor: ", i + 1);
     scanf("%d", &v[i]);
