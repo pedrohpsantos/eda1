@@ -62,6 +62,11 @@
   - Potencia e MDC
   - Outros exercícios de recursão
 
+- **Aula 14**: Laboratorio 2
+  - Funções recursivas
+
+- **Aula 15**: Prova 1
+
 ### Práticas
 
 - Exercícios BeeCrowd
