@@ -54,16 +54,21 @@
 - **Aula 11**: Laboratorio 1
   - Sistema de Gestão de Estoque
 
-- **Aula 12**: Recursão
+- **Aula 12**: Recursão 1
   - Fatorial e Fibonacci
   - Iterativa x Recursiva
+
+- **Aula 13**: Recursão 2
+  - Potencia e MDC
+  - Outros exercícios de recursão
 
 ### Práticas
 
 - Exercícios BeeCrowd
-- Exercicios das aulas
+- Exercícios das aulas
 
 ### PDFs
+
 - Bibliografias
 - Slides de aula
 
