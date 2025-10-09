@@ -9,7 +9,8 @@ int main() {
   printf("Digite o nome do arquivo a ser lido: \n");
   scanf("%s", arquivo);
   fp = fopen(arquivo,
-             "r"); // "r" método read ; exite o "w" write e "x" execution.
+             "r"); // "r" método read ; exite o "w" write e "a" adiciona texto
+                   // na ultima linha.
 
   if (fp == NULL) {
     printf("Não é possível acessar o arquivo %s \n ", arquivo);
