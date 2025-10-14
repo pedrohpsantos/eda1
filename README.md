@@ -67,6 +67,10 @@
 
 - **Aula 15**: Prova 1
 
+- **Aula 16**: Analise de Complexidade
+  - Complexidade espacial e temporal
+  - Notação assintótica
+
 ### Práticas
 
 - Exercícios BeeCrowd
