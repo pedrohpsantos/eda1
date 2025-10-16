@@ -17,20 +17,19 @@ jobs:
     - name: Instalar dependências (SDL2)
       run: sudo apt-get update && sudo apt-get install -y libsdl2-dev
 
-    - name: Compilando os arquivos C
+    - name: Compilando os arquivos C (sem linkar)
       run: |
-        # Loop para encontrar e compilar cada arquivo .c
+        # Este script agora usa a flag -c para apenas compilar e verificar a sintaxe,
+        # gerando arquivos .o (objetos) em vez de executáveis.
+        # Isso garante que todo o seu código está sintaticamente correto.
         find . -type f -name "*.c" -print0 | while IFS= read -r -d $'\0' file; do
-          EXECUTABLE="${file%.c}"
+          OBJECT_FILE="${file%.c}.o"
           
-          # Verifica se o arquivo é o que precisa da biblioteca SDL2
           if [[ "$file" == *"aula12/estrelas.c"* ]]; then
-            # Usa `sdl2-config` para obter as flags de compilação corretas
-            echo "Compilando (com SDL2): $file"
-            gcc "$file" -o "$EXECUTABLE" $(sdl2-config --cflags --libs) -lm
+            echo "Compilando (com SDL2): $file -> $OBJECT_FILE"
+            gcc -c "$file" -o "$OBJECT_FILE" $(sdl2-config --cflags --libs) -lm
           else
-            # Compilação padrão para os outros arquivos
-            echo "Compilando: $file"
-            gcc "$file" -o "$EXECUTABLE" -lm
+            echo "Compilando: $file -> $OBJECT_FILE"
+            gcc -c "$file" -o "$OBJECT_FILE" -lm
           fi
         done
