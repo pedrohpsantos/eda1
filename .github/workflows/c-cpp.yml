@@ -14,13 +14,23 @@ jobs:
     - name: Checkout do Repositório
       uses: actions/checkout@v4
 
+    - name: Instalar dependências (SDL2)
+      run: sudo apt-get update && sudo apt-get install -y libsdl2-dev
+
     - name: Compilando os arquivos C
       run: |
-        # Este comando encontra todos os arquivos .c no projeto,
-        # um por um, e os compila.
-        # A flag -lm é importante para incluir a biblioteca de matemática,
-        # já que alguns dos seus códigos a utilizam.
-        find . -name "*.c" -print0 | while IFS= read -r -d $'\0' file; do
-          gcc "$file" -o "${file%.c}" -lm
-          echo "Compilado: $file -> ${file%.c}"
+        # Loop para encontrar e compilar cada arquivo .c
+        find . -type f -name "*.c" -print0 | while IFS= read -r -d $'\0' file; do
+          EXECUTABLE="${file%.c}"
+          
+          # Verifica se o arquivo é o que precisa da biblioteca SDL2
+          if [[ "$file" == *"aula12/estrelas.c"* ]]; then
+            # Usa `sdl2-config` para obter as flags de compilação corretas
+            echo "Compilando (com SDL2): $file"
+            gcc "$file" -o "$EXECUTABLE" $(sdl2-config --cflags --libs) -lm
+          else
+            # Compilação padrão para os outros arquivos
+            echo "Compilando: $file"
+            gcc "$file" -o "$EXECUTABLE" -lm
+          fi
         done
