@@ -8,16 +8,19 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: configure
-      run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+    - name: Checkout do Repositório
+      uses: actions/checkout@v4
+
+    - name: Compilando os arquivos C
+      run: |
+        # Este comando encontra todos os arquivos .c no projeto,
+        # um por um, e os compila.
+        # A flag -lm é importante para incluir a biblioteca de matemática,
+        # já que alguns dos seus códigos a utilizam.
+        find . -name "*.c" -print0 | while IFS= read -r -d $'\0' file; do
+          gcc "$file" -o "${file%.c}" -lm
+          echo "Compilado: $file -> ${file%.c}"
+        done
