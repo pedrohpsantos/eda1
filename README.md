@@ -73,7 +73,6 @@
 
 ### Práticas
 
-- Exercícios BeeCrowd
 - Exercícios das aulas
 
 ### PDFs
