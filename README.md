@@ -71,6 +71,9 @@
   - Complexidade espacial e temporal
   - Notação assintótica
 
+- **Aula 17**: Metodos de Ordenação
+  - Algoritmos de ordenação
+
 ### Práticas
 
 - Exercícios das aulas
