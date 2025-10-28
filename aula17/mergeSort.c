@@ -1,11 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-// A função recebe vetores crescentes v[p..q-1] e v[q..r-1]
-// e rearranja v[p..r-1] em ordem crescente.
 void intercala(int p, int q, int r, int v[])
 {
     int *w;
-    w = malloc((r - p) * sizeof(int));
+    w = (int *)malloc((r - p) * sizeof(int));
     int i = p, j = q;
     int k = 0;
     while (i < q && j < r)
@@ -24,8 +24,6 @@ void intercala(int p, int q, int r, int v[])
     free(w);
 }
 
-// A função mergesort rearranja o vetor
-// v[p..r-1] em ordem crescente.
 void mergesort(int p, int r, int v[])
 {
     if (p < r - 1)
@@ -35,4 +33,42 @@ void mergesort(int p, int r, int v[])
         mergesort(q, r, v);
         intercala(p, q, r, v);
     }
+}
+
+void printArray(int arr[], int size)
+{
+    for (int i = 0; i < size; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+}
+
+int main()
+{
+    int n;
+
+    printf("Digite o tamanho do vetor: ");
+    scanf("%d", &n);
+
+    int *vet = (int *)malloc(n * sizeof(int));
+
+    printf("Gerando vetor aleatorio...\n");
+    srand(time(NULL));
+    for (int i = 0; i < n; i++)
+    {
+        vet[i] = rand() % 1000;
+    }
+
+    printf("Vetor original: ");
+    printArray(vet, n);
+
+    clock_t start = clock();
+    mergesort(0, n, vet);
+    clock_t end = clock();
+
+    printf("Vetor ordenado: ");
+    printArray(vet, n);
+    printf("Tempo: %.6f segundos\n", (double)(end - start) / CLOCKS_PER_SEC);
+
+    free(vet);
+    return 0;
 }
