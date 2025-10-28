@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   // Inicializando a matriz com todos os elementos com 0
   int matriz[3][4] = {{0}};
@@ -11,8 +12,10 @@ int main() {
   matriz[2][2] = 3;
 
   // Percorre toda a matriz e mostra os elementos
-  for (int i = 0; i < 3; i++) {
-    for (int j = 0; j < 4; j++) {
+  for (int i = 0; i < 3; i++)
+  {
+    for (int j = 0; j < 4; j++)
+    {
       printf("%d ", matriz[i][j]);
     }
     printf("\n");

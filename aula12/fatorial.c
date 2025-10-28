@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-int Fatorial(int n) {
+int Fatorial(int n)
+{
   if (n == 0)
     return 1; // Caso Base
   else
     return n * Fatorial(n - 1); // Passo Recursivo
 }
 
-int main() {
+int main()
+{
   int x, result;
   printf("Fatorial de: ");
   scanf("%d", &x);

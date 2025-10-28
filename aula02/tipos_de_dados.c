@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
   // Demonstração dos tipos básicos de dados em C
 
   // 1. Tipos de caracteres

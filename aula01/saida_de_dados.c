@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
   // Declaração e inicialização das variáveis
   int num = 5;        // Número inteiro
   float pi = 3.14159; // Número com ponto flutuante

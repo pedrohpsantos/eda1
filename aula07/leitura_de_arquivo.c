@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   FILE *fp;
   char ch;
@@ -12,11 +13,13 @@ int main() {
              "r"); // "r" método read ; exite o "w" write e "a" adiciona texto
                    // na ultima linha.
 
-  if (fp == NULL) {
+  if (fp == NULL)
+  {
     printf("Não é possível acessar o arquivo %s \n ", arquivo);
   }
 
-  while (1) {
+  while (1)
+  {
     ch = fgetc(fp);
     if (ch == EOF) // EOF corresponde ao último caractere do arquivo antes dele
                    // ser fechado

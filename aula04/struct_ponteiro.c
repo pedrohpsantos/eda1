@@ -2,12 +2,14 @@
 #include <stdlib.h> // Necessária para malloc() e free()
 #include <string.h>
 
-struct Funcionario {
+struct Funcionario
+{
   char nome[100];
   int id;
 };
 
-int main() {
+int main()
+{
   // Declaramos um ponteiro que irá apontar para uma variável do tipo "struct
   // Funcionario"
   struct Funcionario *ptr_func;
@@ -16,7 +18,8 @@ int main() {
   // Funcionario" precisa.
   ptr_func = (struct Funcionario *)malloc(sizeof(struct Funcionario));
 
-  if (ptr_func == NULL) {
+  if (ptr_func == NULL)
+  {
     printf("Erro ao alocar memoria!\n");
     return 1; // Termina o programa com um código de erro.
   }

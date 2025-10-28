@@ -3,19 +3,22 @@
 #include <string.h>
 
 // Definição da estrutura usando um apelido (typedef)
-typedef struct {
+typedef struct
+{
   char nome[100];
   int id;
 } Funcionario;
 
-int main() {
+int main()
+{
   // Graças ao typedef, podemos declarar o ponteiro de forma mais limpa.
   Funcionario *ptr_func;
 
   // A lógica é a mesma, mas usamos o nosso novo tipo "Funcionario"
   ptr_func = (Funcionario *)malloc(sizeof(Funcionario));
 
-  if (ptr_func == NULL) {
+  if (ptr_func == NULL)
+  {
     printf("Erro ao alocar memoria!\n");
     return 1;
   }

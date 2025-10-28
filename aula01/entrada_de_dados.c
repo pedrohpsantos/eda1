@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
   // Declaração das variáveis para armazenar os dados
   int idade;     // Armazena a idade como número inteiro
   float altura;  // Armazena a altura como número decimal

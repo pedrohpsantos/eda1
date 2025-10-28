@@ -1,22 +1,31 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   FILE *fp;
   char ch;
   int charactere = 0, spaces = 0, tabs = 0, newlines = 0;
   fp = fopen("lorem.txt", "r");
-  while (1) {
+  while (1)
+  {
     ch = fgetc(fp);
     if (ch == EOF)
       break;
-    if (ch == '\n') {
+    if (ch == '\n')
+    {
       newlines++;
-    } else if (ch == ' ') {
+    }
+    else if (ch == ' ')
+    {
       spaces++;
-    } else if (ch == '\t') {
+    }
+    else if (ch == '\t')
+    {
       tabs++;
-    } else {
+    }
+    else
+    {
       charactere++;
     }
   }

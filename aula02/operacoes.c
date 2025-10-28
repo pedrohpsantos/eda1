@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
   // Declaração das variáveis
   // Variáveis inteiras
   int a = 10; // Primeiro número inteiro

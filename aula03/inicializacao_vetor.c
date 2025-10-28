@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   // Inicializando todos os elementos com 0
   int vetor[10] = {0};

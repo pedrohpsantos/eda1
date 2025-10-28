@@ -2,12 +2,14 @@
 #include <string.h>
 
 // Modelo de estrutura com um "apelido" (typedef)
-typedef struct {
+typedef struct
+{
   char nomeAluno[100];
   int matriculaAluno;
 } Aluno;
 
-int main() {
+int main()
+{
   // Inicializando uma variável do tipo "Aluno" (Apelido da estrutura)
   Aluno aluno;
 

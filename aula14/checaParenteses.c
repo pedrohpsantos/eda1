@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-int ChecaParenteses(char *expr, int count) {
-  if (*expr == '\0') {
+int ChecaParenteses(char *expr, int count)
+{
+  if (*expr == '\0')
+  {
     if (count == 0)
       return 0;
 
@@ -21,7 +23,8 @@ int ChecaParenteses(char *expr, int count) {
   return ChecaParenteses(expr + 1, count);
 }
 
-int main() {
+int main()
+{
   char *expression1 = "((1 + 2) * (3 + 4))";
   char *expression2 = "((1 + 2) * (3 + 4)";
   char *expression3 = "((1 + 2)) * (3 + 4))";

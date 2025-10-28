@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
   // Criamos uma variável comum, como uma "caixa" para guardar um número.
   int numero = 79417;
 
@@ -27,6 +28,8 @@ int main() {
   *ptr = 90560; // "Vá até o endereço que você aponta e mude o valor para 90560"
 
   printf("Novo valor de 'numero' apos a modificacao: %d\n", numero);
+
+  free(ptr);
 
   return 0;
 }

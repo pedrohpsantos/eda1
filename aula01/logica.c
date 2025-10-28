@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
   // Declaração e inicialização das variáveis
   int a = 5;
   int b = 10;
@@ -15,7 +16,7 @@ int main() {
   printf("   a > b:  %d (Maior que)\n\n", a > b); // Retorna 0 se falso
 
   printf("2. Operadores de Menor/Maior ou Igual:\n");
-  printf("   a <= b: %d (Menor ou igual)\n", a <= b); // Retorna 1 se verdadeiro
+  printf("   a <= b: %d (Menor ou igual)\n", a <= b);   // Retorna 1 se verdadeiro
   printf("   a >= b: %d (Maior ou igual)\n\n", a >= b); // Retorna 0 se falso
 
   printf("3. Operadores de Igualdade:\n");

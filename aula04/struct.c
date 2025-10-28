@@ -2,13 +2,15 @@
 #include <string.h>
 
 // Modelo de estrutura
-struct Produto {
+struct Produto
+{
   char nome[100];
   int codigo;
   double preco;
 };
 
-int main() {
+int main()
+{
   // Declaramos uma variável "meu_produto" do tipo "struct Produto"
   struct Produto meu_produto;
 
