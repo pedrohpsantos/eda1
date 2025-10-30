@@ -93,6 +93,11 @@
 - **Aula 18**: Laboratorio 3
   - Algoritmos de ordenação
 
+- **Aula 19**: Lista encadeada
+  - Inclusão
+  - Verificação de lista vazia
+  - Exclusão
+
 ### Práticas
 
 - Exercícios das aulas
