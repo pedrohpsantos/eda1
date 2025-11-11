@@ -95,8 +95,13 @@
 
 - **Aula 19**: Lista encadeada
   - Inclusão
-  - Verificação de lista vazia
+  - Casos adicionais (lista vazia, lista com um elemento)
   - Exclusão
+
+- **Aula 20**: Lista duplamente encadeada
+  - Inclusão
+  - Exclusão
+  - Casos adicionais (lista vazia, lista com um elemento)
 
 ### Práticas
 
