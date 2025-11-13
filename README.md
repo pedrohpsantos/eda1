@@ -103,6 +103,10 @@
   - Exclusão
   - Casos adicionais (lista vazia, lista com um elemento)
 
+- **Aula 21**: Pilha e Fila
+  - Empilhamento e Desempilhamento
+  - Enfileiramento e Desenfileiramento
+
 ### Práticas
 
 - Exercícios das aulas
