@@ -75,7 +75,7 @@
   - Potencia e MDC
   - Outros exercícios de recursão
 
-- **Aula 14**: Laboratorio 2
+- **Aula 14**: Laboratório 2
 
   - Funções recursivas
 
@@ -90,7 +90,7 @@
 
   - Algoritmos de ordenação
 
-- **Aula 18**: Laboratorio 3
+- **Aula 18**: Laboratório 3
   - Algoritmos de ordenação
 
 - **Aula 19**: Lista encadeada
@@ -106,6 +106,9 @@
 - **Aula 21**: Pilha e Fila
   - Empilhamento e Desempilhamento
   - Enfileiramento e Desenfileiramento
+
+- **Aula 22**: Laboratório 4
+  - Estruturas Lineares (balanceamento de equação)
 
 ### Práticas
 
