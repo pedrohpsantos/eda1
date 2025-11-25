@@ -110,6 +110,10 @@
 - **Aula 22**: Laboratório 4
   - Estruturas Lineares (balanceamento de equação)
 
+- **Aula 23**: Árvores Binárias
+  - Nó raiz, Nó irmão, Nó filho e Nó folha (Terminal)
+  - Nível, grau, altura e floresta
+
 ### Práticas
 
 - Exercícios das aulas
