@@ -103,14 +103,19 @@
   - Exclusão
   - Casos adicionais (lista vazia, lista com um elemento)
 
-- **Aula 21**: Pilha e Fila
+- **Aula 21**: Lista Circular
+  - Casos adicionais (lista vazia, lista com um elemento)
+  - Inclusão
+  - Exclusão
+
+- **Aula 22**: Pilha e Fila
   - Empilhamento e Desempilhamento
   - Enfileiramento e Desenfileiramento
 
-- **Aula 22**: Laboratório 4
+- **Aula 23**: Laboratório 4
   - Estruturas Lineares (balanceamento de equação)
 
-- **Aula 23**: Árvores Binárias
+- **Aula 24**: Árvores Binárias
   - Nó raiz, Nó irmão, Nó filho e Nó folha (Terminal)
   - Nível, grau, altura e floresta
 
