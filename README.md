@@ -121,6 +121,9 @@
   - Nó raiz, Nó irmão, Nó filho e Nó folha (Terminal)
   - Nível, grau, altura e floresta
 
+- **Aula 26**: Laboratório 5
+  - Sistema para Ordenação e Busca de Dados Pessoais - SOBP
+
 ### Práticas
 
 - Exercícios das aulas
