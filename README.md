@@ -115,7 +115,9 @@
 - **Aula 23**: Laboratório 4
   - Estruturas Lineares (balanceamento de equação)
 
-- **Aula 24**: Árvores Binárias
+- **Aula 24**: Prova 2
+
+- **Aula 25**: Árvores Binárias
   - Nó raiz, Nó irmão, Nó filho e Nó folha (Terminal)
   - Nível, grau, altura e floresta
 
