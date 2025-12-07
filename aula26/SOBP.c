@@ -21,24 +21,6 @@ typedef struct TABPNo
 TPessoa Data[100]; // Defini um tamanho arbitráio (ex: 100) para o vetor global
 int dataCount;
 
-// Protótipo da função AlocaNo (necessário declarar antes de usar no Fill)
-TABPNo *AlocaNo(TABPNo *root, int age, int index);
-
-// Função Fill: Gera uma ABP a partir de um um dataset (conjunto de registros do tipo TPessoa).
-// dataCount é uma variável global do sistema. Armazena o total de nós da ABP.
-TABPNo *Fill(TPessoa dataset[], int qtRegistros)
-{
-    TABPNo *root = NULL;
-    dataCount = 0;
-    for (int i = 0; i < qtRegistros; i++)
-    {
-        Data[i] = dataset[i];
-        root = AlocaNo(root, Data[i].age, i);
-        dataCount++;
-    }
-    return root;
-}
-
 // Exercicio 1
 TABPNo *AlocaNo(TABPNo *root, int age, int index)
 {
@@ -70,6 +52,21 @@ TABPNo *AlocaNo(TABPNo *root, int age, int index)
     }
 
     // Retorna a raiz atual para manter a estrutura conectada
+    return root;
+}
+
+// Função Fill: Gera uma ABP a partir de um um dataset (conjunto de registros do tipo TPessoa).
+// dataCount é uma variável global do sistema. Armazena o total de nós da ABP.
+TABPNo *Fill(TPessoa dataset[], int qtRegistros)
+{
+    TABPNo *root = NULL;
+    dataCount = 0;
+    for (int i = 0; i < qtRegistros; i++)
+    {
+        Data[i] = dataset[i];
+        root = AlocaNo(root, Data[i].age, i);
+        dataCount++;
+    }
     return root;
 }
 

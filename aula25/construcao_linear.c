@@ -2,14 +2,16 @@
 #include <stdlib.h>
 
 // Nó adaptado para CHAR conforme o PDF de construção
-typedef struct NoChar {
+typedef struct NoChar
+{
     char dado;
     struct NoChar *esq;
     struct NoChar *dir;
 } NoChar;
 
-NoChar* criarNoChar(char valor) {
-    NoChar* novo = (NoChar*)malloc(sizeof(NoChar));
+NoChar *criarNoChar(char valor)
+{
+    NoChar *novo = (NoChar *)malloc(sizeof(NoChar));
     novo->dado = valor;
     novo->esq = NULL;
     novo->dir = NULL;
@@ -19,18 +21,20 @@ NoChar* criarNoChar(char valor) {
 // Função de Construção baseada no slide 3
 // 'str': a string completa (ex: "AB..C..")
 // 'idx': ponteiro para controlar a posição atual na leitura da string
-NoChar* construirPorString(char *str, int *idx) {
+NoChar *construirPorString(char *str, int *idx)
+{
     // Lê o caractere atual e avança o índice
     char dado = str[*idx];
-    (*idx)++; 
+    (*idx)++;
 
     // Se acabou a string ou é um marcador de vazio (.), retorna NULL
-    if (dado == '\0' || dado == '.') {
+    if (dado == '\0' || dado == '.')
+    {
         return NULL;
     }
 
     // 1. Cria a Raiz
-    NoChar* novo = criarNoChar(dado);
+    NoChar *novo = criarNoChar(dado);
 
     // 2. Constrói recursivamente a Esquerda
     novo->esq = construirPorString(str, idx);
@@ -42,15 +46,18 @@ NoChar* construirPorString(char *str, int *idx) {
 }
 
 // Função auxiliar para imprimir e verificar se funcionou (Pré-ordem)
-void imprimirPreOrdem(NoChar* raiz) {
-    if (raiz != NULL) {
+void imprimirPreOrdem(NoChar *raiz)
+{
+    if (raiz != NULL)
+    {
         printf("%c ", raiz->dado);
         imprimirPreOrdem(raiz->esq);
         imprimirPreOrdem(raiz->dir);
     }
 }
 
-int main() {
+int main()
+{
     // Exemplo do slide 2: "ABG..C.DE.F...."
     // A é raiz. B é esquerda de A. G é esquerda de B...
     char notacao[] = "ABG..C.DE.F....";
@@ -58,7 +65,7 @@ int main() {
 
     printf("String original: %s\n", notacao);
 
-    NoChar* raiz = construirPorString(notacao, &indice);
+    NoChar *raiz = construirPorString(notacao, &indice);
 
     printf("Arvore construida (Pre-ordem): ");
     imprimirPreOrdem(raiz);
