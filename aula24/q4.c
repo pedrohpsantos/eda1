@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+// Algoritmo de ordenação (Selection Sort)
 int Q4(char *vet, int tam)
 {
     int i, j, pcont = 0;

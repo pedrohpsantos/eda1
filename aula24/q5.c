@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+// Algoritmo de ordenação (Insertion Sort)
 int Q5(char vetor[], int tamanho)
 {
     int pqtde = 0, j, i;

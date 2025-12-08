@@ -9,6 +9,7 @@ int compararChar(const void *a, const void *b)
     return (*(char *)a - *(char *)b);
 }
 
+// Algoritmo de Busca Binária - O(log n)
 int Q3(char *Nome, int tamanho, int matricula)
 {
     int inicio = 0, meio, fim = tamanho - 1, pcont = 0;
