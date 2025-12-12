@@ -124,6 +124,9 @@
 - **Aula 26**: Laboratório 5
   - Sistema para Ordenação e Busca de Dados Pessoais - SOBP
 
+- **Aula 27**: Prova 3
+  - Todo o conteúdo
+
 ### Práticas
 
 - Exercícios das aulas
