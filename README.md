@@ -25,7 +25,6 @@ Aqui estão os principais algoritmos e estruturas implementados, organizados por
 ### 🔹 Estruturas de Dados Não-Lineares (Árvores)
 
 - **Árvore Binária de Pesquisa (ABP):** [Implementação Básica](aula25/abp_basico.c) | [Remoção](aula25/abp_remocao.c)
-- **Balanceamento:** [Código de Balanceamento](aula23/balanceamento.c)
 
 ---
 
@@ -56,9 +55,6 @@ Provas e correções das atividades avaliativas.
   - Questões sobre estruturas lineares e ordenação.
 - [**Prova 3 (Final Challenge)**](./aula27)
   - Avaliação final abrangendo todo o conteúdo.
-  - [📄 Gabarito e Correção Teórica](./aula27/Gabarito_Prova_EDA.md)
-  - [💻 Código da Questão 5 (Lista Encadeada)](./aula27/le.c)
-  - [💻 Código da Questão 6 (Árvore Binária)](./aula27/abp.c)
 
 ---
 
