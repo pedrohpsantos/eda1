@@ -53,7 +53,7 @@ Provas e correções das atividades avaliativas.
   - Questões práticas sobre lógica, ponteiros e alocação.
 - [**Prova 2**](./aula24)
   - Questões sobre estruturas lineares e ordenação.
-- [**Prova 3 (Final Challenge)**](./aula27)
+- [**Prova 3**](./aula27)
   - Avaliação final abrangendo todo o conteúdo.
 
 ---
